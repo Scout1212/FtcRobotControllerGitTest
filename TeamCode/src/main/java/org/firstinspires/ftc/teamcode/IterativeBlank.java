@@ -71,6 +71,8 @@ public class IterativeBlank extends OpMode
         telemetry.addData("Status", "Running");
         //TODO WE WIN
 
+        telemetry.addData("Status", "Run Time: " + runtime.toString());
+
         telemetry.update();
     }
 
